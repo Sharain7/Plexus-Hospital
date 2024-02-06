@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/stethoscope" />
+    <item
+        android:id="@+id/bookAppointment"
+
+        android:icon="@drawable/medical_services" />
+
+    <item
+        android:id="@+id/services"
+
+        android:icon="@drawable/info" />
+    <item
+        android:id="@+id/profile"
+
+        android:icon="@drawable/account_circle" />
+
+</menu>

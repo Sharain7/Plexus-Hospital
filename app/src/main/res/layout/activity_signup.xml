@@ -8,11 +8,12 @@
     android:padding="16dp"
     tools:context=".SignupActivity">
 
+
     <!-- First TextInputLayout -->
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:id="@+id/txtInputFullName"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="45dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:hintTextColor="@color/black"
@@ -25,6 +26,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:id = "@+id/txtInputEditFullName"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:layout_height="wrap_content" />
@@ -51,6 +53,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:id="@+id/txtInputPhoneEditTextNumber"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:layout_height="wrap_content" />
@@ -71,22 +74,24 @@
         android:layout_marginEnd="16dp" />
 
     <!-- "Sign Up" Button -->
-    <Button
-        android:id="@+id/buttonSignUp"
-        android:theme = "@style/BlackButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/signupbtntext"
-
-        app:layout_constraintTop_toBottomOf="@id/textVerifyMobileNumber"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="30dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp" />
 
     <!-- "Already have an account? Sign in" TextView -->
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+
+        android:layout_marginEnd="16dp"
+        android:text="@string/get_otp"
+        android:theme="@style/BlackButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textVerifyMobileNumber" />
+
     <LinearLayout
+        android:id="@+id/ll_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -98,9 +103,10 @@
         <!-- "Already have an account?" TextView -->
         <TextView
             android:id="@+id/textAlreadyHaveAccount"
+            android:padding = "2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already have an account ? "
+            android:text="Already have an account ?"
             android:textStyle="bold" />
 
         <!-- "Sign in" TextView -->
@@ -108,11 +114,18 @@
             android:id="@+id/textSignIn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign in"
+            android:text="Sign In"
+            android:padding = "4dp"
             android:textColor="@android:color/holo_blue_dark"
             android:textStyle="bold"/>
 
+
+
+
     </LinearLayout>
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

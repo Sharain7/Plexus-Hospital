@@ -1,3 +1,43 @@
 <resources>
-    <string name="app_name">PlexusHospital</string>
+    <string name="app_name">Plexus</string>
+    <string name="full_name">Type your Full Name</string>
+    <string name="phone_number">Type your Phone Number</string>
+    <string name="signupbtntext">sign up</string>
+    <string name="signinbtntext">sign in</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="signin"> Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="verifyMobileNumber"><u>Verify Mobile Number</u></string>
+    <string name="get_otp">get otp</string>
+    <string name="already_have_an_account">Already have an account? </string>
+    <string name="content_description">Service Tab</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="service_field">Services</string>
+    <string name="appointment_field">Choose a Doctor</string>
+    <string name="book_now">Book Now</string>
+    <string name="explain_reason">Explain your purpose to visit the hospital</string>
+    <string-array name="services_list">
+        <item>My Profile</item>
+        <item>Book Appointment</item>
+        <item>Services</item>
+        <item>About Us</item>
+        <item>Contact Us</item>
+        <item>Feedback</item>
+    </string-array>
+    <string name="choose_doctor">Choose a Doctor</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="patient_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="appointment_date">dd/mm/yyyy</string>
+    <string name="appointment_time">00:00</string>
+
+
+    <string-array name="doctor_names">
+        <item>V</item>
+        <item>Dr. Katherine Anderson</item>
+        <item>Ismael Trevino </item>
+        <item>Milton Leonard </item>
+        <item>Warren Wise </item>
+        <item>Claudette Peters </item>
+    </string-array>
 </resources>

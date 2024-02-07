@@ -33,7 +33,7 @@
 
 
     <string-array name="doctor_names">
-        <item>V</item>
+        <item>Choose a Doctor</item>
         <item>Dr. Katherine Anderson</item>
         <item>Ismael Trevino </item>
         <item>Milton Leonard </item>
